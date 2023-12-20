@@ -87,7 +87,6 @@ int search_char(T str) {
 		for(int j = 0; j < csym; j++ )
 			if (str[i] == sym[j])	
 				counter++;
-	//std::cout << counter;
 	return counter;
 }
 
