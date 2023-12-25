@@ -10,6 +10,7 @@ std::string new_str(std::string str, char sym);
 
 
 int main() {
+	setlocale(LC_ALL, "rus");
 	system("chcp 1251>null");
 		
 	std::cout << "\tЗадача 1.Строка из найденых символов.\n";
